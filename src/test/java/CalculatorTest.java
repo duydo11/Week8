@@ -5,7 +5,7 @@ public class CalculatorTest {
     @Test
     public void testAdd1() {
         Calculator calculator = new Calculator();
-        int actualResult = calculator.add(2, 3);
+        int actualResult = calculator.Add(2, 3);
         int expectedResult = 5;
         Assertions.assertEquals(expectedResult, actualResult);
     }

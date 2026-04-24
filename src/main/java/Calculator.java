@@ -5,7 +5,7 @@ public class Calculator {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Calculator.class);
 
-    public int add(int a, int b) {
+    public int Add(int a, int b) {
         int result = a + b;
         LOGGER.info("In add() method: a={}, b={}, result={}", a, b, result);
         return result;
